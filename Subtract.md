@@ -2,7 +2,7 @@
 
 ## Scenario: Subtraction of two positive numbers
 
-Given: Calculator is on
+Given: Calculator is on.
 
 When: Type "positive number",
 and then enter "minus" operator,
