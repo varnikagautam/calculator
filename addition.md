@@ -53,7 +53,7 @@ Given: Calculator is ON
 When: Type first "number", and then enter "plus" operator, and Type
 again any "operator", and press "equals".
 
-Then: Consider only last operator and show result accordingly result.
+Then: Consider the last operator and show result accordingly result.
 
 ## Scenario: Addition of more than two numbers
 
@@ -96,7 +96,7 @@ this with first number. Display "added number" as the result.
 
 ## Scenario: Converse operation
 
-Given: Calculator is turned ON
+Given: Calculator is ON
 
 When: Type first "number", and then enter "plus" operator,
 and then type "second" number, and press "equals".
