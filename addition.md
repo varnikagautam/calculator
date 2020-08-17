@@ -63,7 +63,8 @@ When: Type first "number", and then enter "plus" operator,
 and then type second "number", and again press "add" operator,
 then type third "number", then press "equal"
 
-Then: Add all three numbers and display the final result.
+Then: Add all three numbers and
+display the final result.
 
 ## Scenario: Adding numbers where the result goes out of range
 
