@@ -122,6 +122,6 @@ Given: Calculator is turned on
 When: Type first "number", and then
 enter "minus" operator,
 and then Type "second" number,
-and press "equals".
+and press "equals"
 
 Then: I get "subtracted number" as the result.
