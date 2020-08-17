@@ -2,7 +2,7 @@
 
 ## Scenario: Subtraction of two positive numbers
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type "positive number",
 and then enter "minus" operator,
@@ -13,7 +13,7 @@ Then: I get "subtracted number" as the result.
 
 ## Scenario: Subtraction of two negative numbers
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type "negative number",
 and then enter "minus" operator,
@@ -24,7 +24,7 @@ Then: I get "subtracted number" as the result.
 
 ## Scenario: Subtraction of fractions
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type " fraction number",
 and then enter "minus" operator,
@@ -35,7 +35,7 @@ Then: Display "subtracted number" as the result.
 
 ## Scenario: Subtraction of positive and negative number
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type "positive number or negative number",
 and then enter "subtract" operator,
@@ -46,7 +46,7 @@ Then: I get "subtracted number" as the result.
 
 ## Scenario: Subtraction of decimals
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Enter first "decimal point number",
 and then enter "minus" operator,
@@ -57,7 +57,7 @@ Then: Display "subtracted number" as the result.
 
 ## Scenario: Typing operator more than once
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type "number", and then enter "plus" operator,
 and Type any "operator", and press "equal"
@@ -68,7 +68,7 @@ as the result.
 
 ## Scenario: Subtraction of more than 2 numbers
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Enter first "number", and
 enter "minus" operator,
@@ -83,7 +83,7 @@ the final "subtracted number" as result.
 
 ## Scenario: Subtraction of numbers where the result goes out of range
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type "number/large size number",
 and then enter "minus" operator,
@@ -94,7 +94,7 @@ Then: I get the result within range.
 
 ## Scenario: 6+* as an input
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type "6", and then enter "plus" operator,
 and enter "star" operator, and press "equals".
@@ -104,7 +104,7 @@ and wait for next input.
 
 ## Scenario: Identity operation
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type first "number", and then
 enter "minus" operator,
@@ -117,7 +117,7 @@ this with first number. I get
 
 ## Scenario: Converse operation
 
-Given: Calculator is turned on
+Given: Calculator is on
 
 When: Type first "number", and then
 enter "minus" operator,
